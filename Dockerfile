@@ -5,4 +5,4 @@ COPY config/server.env /config/
 USER root
 RUN mkdir /movingcompny
 USER 4096
-RUN cp Dockerfile /movingcompny/Dockerfile
+RUN cp Dockerfile /movingcompny/.
