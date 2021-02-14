@@ -3,6 +3,6 @@ COPY target/simple-stuff.war /config/dropins/
 COPY config/server.xml /config/
 COPY config/server.env /config/
 USER root
-RUN mkdir /movingcompny
+RUN mkdir /my-special-folder
 USER 4096
-COPY Dockerfile /movingcompny/.
+COPY Dockerfile /my-special-folder/ 
